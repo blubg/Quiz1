@@ -1,0 +1,21 @@
+
+<p>
+  <strong>Name:</strong>
+  <%= @support_request.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @support_request.email %>
+</p>
+
+<p>
+  <strong>Department:</strong>
+  <%= @support_request.department %>
+</p>
+
+<p>
+  <strong>Message:</strong>
+  <%= @support_request.message %>
+</p>
+<%= link_to 'Submit', support_requests_path %>
